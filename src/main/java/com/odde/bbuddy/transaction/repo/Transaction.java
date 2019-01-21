@@ -47,4 +47,9 @@ public class Transaction {
         Income, Outcome
     }
 
+	public int getAmount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

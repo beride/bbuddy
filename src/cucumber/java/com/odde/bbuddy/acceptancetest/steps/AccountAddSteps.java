@@ -38,10 +38,15 @@ public class AccountAddSteps {
 
     @Given("^existing an account with name \"([^\"]*)\"$")
     public void existing_an_account_with_name(String name) throws Throwable {
-        accountRepoForTest.save(defaultAccount().name(name).build());
+        accountRepoForTest.save(((Object) defaultAccount()).name(name).build());
     }
 
-    @When("^add a new account with name \"([^\"]*)\"$")
+    private Object defaultAccount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@When("^add a new account with name \"([^\"]*)\"$")
     public void add_a_new_account_with_name(String name) throws Throwable {
         addAccountPage.add(editableAccount(name));
     }

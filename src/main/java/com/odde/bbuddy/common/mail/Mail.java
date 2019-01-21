@@ -10,4 +10,20 @@ public class Mail {
     private String to;
     private String subject;
     private String text;
+	public String getFrom() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	protected String getTo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public String getSubject() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public String getText() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
