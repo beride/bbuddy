@@ -9,5 +9,9 @@ public class EditableAccount {
 
     private String name;
     private String balanceBroughtForward;
+	public void setName(String name2) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

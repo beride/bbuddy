@@ -20,8 +20,8 @@ public class AddAccountPage {
 
     public void add(EditableAccount account) {
         driver.navigateTo(ACCOUNTS_ADD);
-        driver.inputTextByName(account.getBalanceBroughtForward(), "balanceBroughtForward");
-        driver.inputTextByName(account.getName(), "name");
+       // driver.inputTextByName(account.getBalanceBroughtForward(), "balanceBroughtForward");
+       // driver.inputTextByName(account.getName(), "name");
         driver.clickByText(labelTexts.add);
     }
 

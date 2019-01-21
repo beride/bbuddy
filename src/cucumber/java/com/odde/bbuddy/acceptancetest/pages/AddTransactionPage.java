@@ -20,10 +20,10 @@ public class AddTransactionPage {
 
     public void add(EditableTransaction transaction) {
         driver.navigateTo(TRANSACTIONS_ADD);
-        driver.selectOptionByTextAndElementName(transaction.getType(), "type");
-        driver.inputTextByName(transaction.getDescription(), "description");
-        driver.inputTextByName(transaction.getDate(), "date");
-        driver.inputTextByName(transaction.getAmount(), "amount");
+      //  driver.selectOptionByTextAndElementName(transaction.getType(), "type");
+       // driver.inputTextByName(transaction.getDescription(), "description");
+      //  driver.inputTextByName(transaction.getDate(), "date");
+       // driver.inputTextByName(transaction.getAmount(), "amount");
         driver.clickByText(labelTexts.add);
     }
 
